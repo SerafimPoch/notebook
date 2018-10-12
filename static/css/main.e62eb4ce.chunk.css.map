@@ -1,0 +1,1 @@
+{"version":3,"sources":["/Users/serafimpocapinskij/js/test/notebook/src/css/reset.css"],"names":[],"mappings":"AAAA,EACE,SAAU,AACV,UAAW,AACX,SAAU,AACV,eAAgB,AAChB,sBAAyB,CAC1B","file":"main.e62eb4ce.chunk.css","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  vertical-align: baseline;\n}\n"]}
