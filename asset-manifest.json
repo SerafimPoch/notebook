@@ -1,13 +1,14 @@
 {
-  "main.css": "/notebook/static/css/main.e62eb4ce.chunk.css",
-  "main.js": "/notebook/static/js/main.071cb377.chunk.js",
-  "main.js.map": "/notebook/static/js/main.071cb377.chunk.js.map",
-  "static/js/1.b99f27b3.chunk.js": "/notebook/static/js/1.b99f27b3.chunk.js",
-  "static/js/1.b99f27b3.chunk.js.map": "/notebook/static/js/1.b99f27b3.chunk.js.map",
+  "main.css": "/notebook/static/css/main.a8d807a0.chunk.css",
+  "main.js": "/notebook/static/js/main.853dea4f.chunk.js",
+  "main.js.map": "/notebook/static/js/main.853dea4f.chunk.js.map",
+  "static/js/1.eade43b5.chunk.js": "/notebook/static/js/1.eade43b5.chunk.js",
+  "static/js/1.eade43b5.chunk.js.map": "/notebook/static/js/1.eade43b5.chunk.js.map",
   "runtime~main.js": "/notebook/static/js/runtime~main.7a4254bd.js",
   "runtime~main.js.map": "/notebook/static/js/runtime~main.7a4254bd.js.map",
-  "static/css/main.e62eb4ce.chunk.css.map": "/notebook/static/css/main.e62eb4ce.chunk.css.map",
+  "static/media/main.css": "/notebook/static/media/neu.5887474b.ttf",
+  "static/css/main.a8d807a0.chunk.css.map": "/notebook/static/css/main.a8d807a0.chunk.css.map",
   "index.html": "/notebook/index.html",
-  "precache-manifest.64bde21c0d6cc85137686caaf774250a.js": "/notebook/precache-manifest.64bde21c0d6cc85137686caaf774250a.js",
+  "precache-manifest.09c3835c1961391a9c8ea3e297013c11.js": "/notebook/precache-manifest.09c3835c1961391a9c8ea3e297013c11.js",
   "service-worker.js": "/notebook/service-worker.js"
 }
