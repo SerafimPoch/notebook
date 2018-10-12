@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Neu;
+  src: url("../fonts/neu.ttf");
+}
+
+body {
+  background-color: #070a14;
+  color: white;
+  font-family: Neu;
+  font-weight: bold;
+}

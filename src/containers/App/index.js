@@ -1,5 +1,11 @@
 import React from "react";
+import Header from "../Header";
+import { Container } from "./style";
 
 export default () => {
-  return <p>hello serafim</p>;
+  return (
+    <Container>
+      <Header />
+    </Container>
+  );
 };
