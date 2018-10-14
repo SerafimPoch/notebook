@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
   font-size: 55px;
   font-height: 52px;
+  align-items: center;
   font-style: Regular;
+  flex-flow: column wrap;
 `;
