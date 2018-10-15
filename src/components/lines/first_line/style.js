@@ -2,11 +2,9 @@ import styled from "styled-components";
 
 export const MiniDisplayContainer = styled.div`
   display: flex;
-  position: relative;
+  font-size: 11px;
   flex-flow: column wrap;
   align-items: flex-end;
-  top: -149px;
-  left: -224px;
 `;
 
 export const MiniDisplay = styled.div`
@@ -14,7 +12,7 @@ export const MiniDisplay = styled.div`
   height: 130px;
   background-color: #fff;
   transform-origin: top;
-  animation: animate forwards 1.5s;
+  animation: animate 1.5s;
 
   @keyframes animate {
     0% {
