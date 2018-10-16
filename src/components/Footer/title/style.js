@@ -6,4 +6,8 @@ export const FooterTittle = styled.div`
   font-height: 28px;
   align-items: center;
   font-style: Regular;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    font-size: 20px;
+  }
 `;

@@ -12,6 +12,11 @@ export const ACContainer = styled.div`
     left: -50px;
     top: -2px;
   }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    font-size: 7px;
+    left: 13px;
+  }
 `;
 
 export const AC = styled.div`
@@ -41,6 +46,20 @@ export const AC = styled.div`
 
       100% {
         height: 170px;
+      }
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    height: 40px;
+
+    @keyframes animate_fifth {
+      0% {
+        height: 0px;
+      }
+
+      100% {
+        height: 40px;
       }
     }
   }

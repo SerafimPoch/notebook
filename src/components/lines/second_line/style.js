@@ -11,6 +11,11 @@ export const HDMIContainer = styled.div`
   @media (min-width: 768px) and (max-width: 1024px) {
     left: 8px;
   }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    left: 7px;
+    font-size: 7px;
+  }
 `;
 
 export const HDMI = styled.div`
@@ -27,6 +32,20 @@ export const HDMI = styled.div`
 
     100% {
       height: 130px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    height: 86px;
+
+    @keyframes animate_second {
+      0% {
+        height: 0px;
+      }
+
+      100% {
+        height: 86px;
+      }
     }
   }
 `;

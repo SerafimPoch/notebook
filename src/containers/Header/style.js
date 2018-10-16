@@ -7,4 +7,9 @@ export const HeaderContainer = styled.div`
   align-items: center;
   font-style: Regular;
   flex-flow: column wrap;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    font-size: 25px;
+    font-height: 23px;
+  }
 `;

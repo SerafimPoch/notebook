@@ -13,6 +13,12 @@ export const EtherContainer = styled.div`
     left: -12px;
     top: 0px;
   }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    font-size: 7px;
+    top: 2px;
+    left: 17px;
+  }
 `;
 
 export const Ether = styled.div`
@@ -29,6 +35,20 @@ export const Ether = styled.div`
 
     100% {
       height: 130px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    height: 108px;
+
+    @keyframes animate_fourth {
+      0% {
+        height: 0px;
+      }
+
+      100% {
+        height: 108px;
+      }
     }
   }
 `;

@@ -13,6 +13,11 @@ export const USBContainer = styled.div`
     left: 16px;
     top: 8px;
   }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    left: 18px;
+    font-size: 7px;
+  }
 `;
 
 export const USB = styled.div`
@@ -29,6 +34,20 @@ export const USB = styled.div`
 
     100% {
       height: 80px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    height: 127px;
+
+    @keyframes animate_third {
+      0% {
+        height: 0px;
+      }
+
+      100% {
+        height: 127px;
+      }
     }
   }
 `;

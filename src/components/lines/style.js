@@ -12,4 +12,10 @@ export const LinesContainer = styled.div`
     width: 60%;
     left: 5px;
   }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    top: -200px;
+    width: 30%;
+    left: -20px;
+  }
 `;

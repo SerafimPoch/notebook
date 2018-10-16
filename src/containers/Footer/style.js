@@ -5,4 +5,8 @@ export const FooterContainer = styled.div`
   align-items: center;
   flex-flow: column wrap;
   width: 100%;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    margin-top: -120px;
+  }
 `;

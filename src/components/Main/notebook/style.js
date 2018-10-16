@@ -5,4 +5,9 @@ export const NotebookPicture = styled.img`
   height: 114px;
   position: absolute;
   margin-top: 250px;
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    height: 29px;
+    margin-top: 150px;
+  }
 `;
