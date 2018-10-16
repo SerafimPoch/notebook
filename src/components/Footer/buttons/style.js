@@ -5,6 +5,10 @@ export const ButtonsContainer = styled.div`
   width: 40%;
   margin-bottom: 46px;
   justify-content: space-between;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 60%;
+  }
 `;
 
 export const Button = styled.button`

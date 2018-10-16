@@ -8,6 +8,11 @@ export const USBContainer = styled.div`
   position: relative;
   left: 35px;
   top: 3px;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    left: 16px;
+    top: 8px;
+  }
 `;
 
 export const USB = styled.div`

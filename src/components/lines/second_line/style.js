@@ -7,6 +7,10 @@ export const HDMIContainer = styled.div`
   align-items: center;
   position: relative;
   left: 30px;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    left: 8px;
+  }
 `;
 
 export const HDMI = styled.div`

@@ -3,11 +3,16 @@ import styled from "styled-components";
 export const EtherContainer = styled.div`
   display: flex;
   font-size: 11px;
+  align-items: center;
   flex-flow: column wrap;
   position: relative;
   left: 24px;
   top: 10px;
-  align-items: center;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    left: -12px;
+    top: 0px;
+  }
 `;
 
 export const Ether = styled.div`
