@@ -11,7 +11,7 @@ export default () => {
     <Router>
       <Container>
         <Header />
-        <Route exact path="/" component={Main} />
+        <Route exact path="/notebook" component={Main} />
         <Route exact path="/left" component={LeftSide} />
         <Route exact path="/right" component={RightSide} />
         <Footer />

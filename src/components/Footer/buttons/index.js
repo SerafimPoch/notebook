@@ -5,7 +5,7 @@ import { ButtonsContainer, Button } from "./style";
 export default () => {
   return (
     <ButtonsContainer>
-      <Link style={{ textDecoration: "none" }} to="/">
+      <Link style={{ textDecoration: "none" }} to="/notebook">
         <Button>Позаду</Button>
       </Link>
 
