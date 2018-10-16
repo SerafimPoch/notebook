@@ -9,3 +9,10 @@ body {
   font-family: Neu;
   font-weight: bold;
 }
+
+a {
+  outline: none;
+  text-decoration: "none";
+  cursor: pointer;
+  color: #fff;
+}

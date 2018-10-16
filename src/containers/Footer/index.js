@@ -1,11 +1,13 @@
 import React from "react";
 import { FooterContainer } from "./style";
+import Buttons from "../../components/Footer/buttons";
+import FooterTitle from "../../components/Footer/title";
 
 export default () => {
   return (
     <FooterContainer>
-      <p>footer</p>
-      <p>footer</p>
+      <Buttons />
+      <FooterTitle />
     </FooterContainer>
   );
 };
